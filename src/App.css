@@ -1,8 +1,10 @@
 body {
   background-color: #EBEDEF;
+  font-family: 'Montserrat', sans-serif;
 }
 .App {
   width: 90%;
+  padding-bottom: 20px;
   margin: 0 auto;
   background-color: #C7CBD1;
   display: grid;
@@ -34,13 +36,13 @@ body {
 .nav {
   grid-area: nav;
 }
-.nav div {
+.nav > div {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: flex-start;
 }
-.nav div a {
+.nav > div > a {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
