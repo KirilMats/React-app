@@ -1,8 +1,9 @@
 import React from 'react';
+import c from './NewPost.module.css';
 
 const NewPost = () => {
-	return <div className="new-post">
-                <form action="" >
+	return <div className={c.new_post}>
+                <form className={c.new_post_form} action="" >
                   <textarea placeholder="Have a news?"></textarea>
                   <input type="submit" value="Send" />
                 </form>
