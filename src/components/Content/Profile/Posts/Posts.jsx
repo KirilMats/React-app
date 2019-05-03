@@ -1,6 +1,6 @@
 import React from 'react';
-import NewPost from './NewPost';
-import PostList from './PostList';
+import NewPost from './NewPost/NewPost';
+import PostList from './PostList/PostList';
 import c from './Posts.module.css';
 
 const Posts = () => {

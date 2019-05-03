@@ -1,4 +1,5 @@
 import React from 'react';
+import Posts from './Posts/Posts';
 import c from './Profile.module.css';
 
 const Profile = () => {
@@ -13,6 +14,7 @@ const Profile = () => {
               <div className={c.user_website}>Wesite: https://www.lorem.ipsum</div>
             </div>
           </div>
+          <Posts />
         </div>
 }
 

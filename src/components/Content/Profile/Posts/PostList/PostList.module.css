@@ -3,7 +3,7 @@
     display: flex;
     flex-flow: column nowrap;
   }
-.post_list .post {
+.item {
     margin-top: 20px;
     display: flex;
     flex-flow: row nowrap;

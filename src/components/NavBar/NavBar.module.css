@@ -22,8 +22,12 @@
     background-color: #8B8D92;
 }
 
-div a:hover {
+.item a:hover {
     background-color: #C7CBD1;
     color: #FF9800;
     transition: 300ms;
+}
+
+.item.active > a{
+    color: #334455;
 }
