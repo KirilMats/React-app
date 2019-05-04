@@ -1,0 +1,10 @@
+.dialog {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 50%;
+  background-color: green;
+}
+.search_bar input{
+  width: 90%;
+  margin: 0 auto;
+}
