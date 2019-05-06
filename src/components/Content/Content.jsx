@@ -12,7 +12,7 @@ const Content = () => {
     <main className={c.content}>
       <img src="https://luminous-landscape.com/wp-content/uploads/2012/11/LL_Landscape_11-12-12.jpg" />
       <Route component={Profile} path='/profile' />
-      <Route component={Messages} path='/messages' />
+      <Route component={Messages} path='/dialogs' />
       <Route component={Feed} path='/feed' />
       <Route component={Music} path='/music' />
       <Route component={Settings} path='/settings' />
