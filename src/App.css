@@ -1,12 +1,12 @@
 body {
-  background-color: #EBEDEF;
+  background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
 .App {
   padding: 0 5%;
   padding-bottom: 20px;
   margin: 0 auto;
-  background-color: #DEDEDE;
+  background-color: #ffffff;
   display: grid;
   grid-template-areas: 
   "header header"

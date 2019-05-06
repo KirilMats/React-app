@@ -1,25 +1,27 @@
 import React from 'react';
 import c from './NavBar.module.css';
-console.log(c);
+import {NavLink} from 'react-router-dom';
 
-const Navbar = () => {
-	return <nav className={c.nav}>
-        <div className={`${c.item} ${c.active}`}>
-          <a href="#">Profile</a>
-        </div>
-        <div className={`${c.item} ${c.active}`}>
-          <a href="#">Messages</a>
-        </div>
-        <div className={`${c.item} ${c.active}`}>
-          <a href="#">Feed</a>
-        </div>
-        <div className={`${c.item} ${c.active}`}>
-          <a href="#">Playlist</a>
-        </div>
-        <div className={`${c.item} ${c.active}`}>
-          <a href="#">Settings</a>
-        </div>
-      </nav>
+const NavBar = () => {
+  return (
+    <nav className={c.nav}>
+      <div className={c.item}>
+        <NavLink to="/profile" activeClassName={c.active}>Profile</NavLink>
+      </div>
+      <div className={c.item}>
+        <NavLink to="/dialogs" activeClassName={c.active}>Messages</NavLink>
+      </div>
+      <div className={c.item}>
+        <NavLink to="/feed" activeClassName={c.active}>Feed</NavLink>
+      </div>
+      <div className={c.item}>
+        <NavLink to="/music" activeClassName={c.active}>Music</NavLink>
+      </div>
+      <div className={c.item}>
+        <NavLink to="/settings" activeClassName={c.active}>Settings</NavLink>
+      </div>
+    </nav>
+  )
 }
 
-export default Navbar;
+export default NavBar;

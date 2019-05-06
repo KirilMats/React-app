@@ -28,6 +28,7 @@
     transition: 300ms;
 }
 
-.item.active > a{
+.item > a:active, .item > a.active{
     color: #334455;
+    background-color: #C7CBD1;
 }
