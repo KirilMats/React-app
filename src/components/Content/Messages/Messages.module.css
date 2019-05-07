@@ -14,13 +14,17 @@
 .dialog_items {
   display: flex;
   flex-flow: column nowrap;
+<<<<<<< HEAD
   justify-content: center;
+=======
+>>>>>>> 01ac5f3579d35c0fe0f8beab3f2bac3f5f51386d
   width: 20%;
   align-items: center;
   margin-top: 5px;
   border: 1px solid #C7CBD1;
 }
 
+<<<<<<< HEAD
 .dialog_items > a {
   box-sizing: border-box;
   text-decoration: none;
@@ -38,6 +42,8 @@
   border: 1px solid #FF9800;
 }
 
+=======
+>>>>>>> 01ac5f3579d35c0fe0f8beab3f2bac3f5f51386d
 .search_bar {
   width: 94%;
   margin: 10px auto;
@@ -90,7 +96,11 @@ input.send_msg:hover {
   transition: 300ms;
 }
 
+<<<<<<< HEAD
 @media (max-width: 600px) {
+=======
+@media (max-width: 1024px) {
+>>>>>>> 01ac5f3579d35c0fe0f8beab3f2bac3f5f51386d
   .message_items {
     width: 70%;
   }
@@ -114,11 +124,30 @@ input.send_msg:hover {
   }
 }
 
+<<<<<<< HEAD
 @media (max-width: 320px) {
   .messages {
     width: 65%;
   }
   .dialogs {
+=======
+@media (max-width: 720px) {
+  input.write_msg{
+    font-size: 12px;
+    padding: 2px 4px;
+  }
+  input.send_msg {
+    font-size: 12px;
+    height: 30px;
+    padding: 0;
+  }
+}
+@media (max-width: 320px) {
+  .message_items {
+    width: 65%;
+  }
+  .dialog_items {
+>>>>>>> 01ac5f3579d35c0fe0f8beab3f2bac3f5f51386d
     width: 35%;
   }
 }

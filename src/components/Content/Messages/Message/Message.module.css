@@ -20,8 +20,39 @@
   background-color: #ffffff;
 }
 
+<<<<<<< HEAD
 @media (max-width: 600px) {
   .message {
     width: 90%;
   }
 }
+=======
+@media (max-width: 1024px) {
+  .message {
+    width: 90%;
+  }
+  .message_container {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 720px) {
+  .message_container {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .message > img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .message > img {
+    width: 25px;
+    height: 25px;
+  }
+}
+>>>>>>> 01ac5f3579d35c0fe0f8beab3f2bac3f5f51386d
